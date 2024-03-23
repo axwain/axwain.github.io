@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.svg">
+    <link rel=”mask-icon” href=”/mask-icon.svg” color=”#000000">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.cdnfonts.com">
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
-    <title>AXwain's Corner</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>{% block title %}AXwain's Dev Corner{% endblock %}</title>
+    <meta name="author" content="AXwain">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block meta %}{% endblock %}
   </head>
 
   <body>
