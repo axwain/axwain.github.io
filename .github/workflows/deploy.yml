@@ -11,7 +11,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: build
-        run:
+        run: |
           mkdir bin
           wget https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz -q -O bin/zola.tar.gz
           tar -xzf ./bin/zola.tar.gz -C ./bin
