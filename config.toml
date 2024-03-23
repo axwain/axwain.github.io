@@ -1,0 +1,14 @@
+base_url = "https://axwain.github.io"
+
+compile_sass = true
+
+build_search_index = true
+
+author = "AXwain"
+
+generate_feed = true
+
+[markdown]
+highlight_code = true
+
+[extra]
