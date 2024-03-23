@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <section class="landing-summary">
+  <p>
+    Welcome to my Dev Corner. On this page I have write mostly about some
+    technical topics I find interesting, and some of the side projects I
+    do outside of work hours.
+  </p>
+</section>
+{% set posts = get_section(path="posts/_index.md") %}
+{% set projects = get_section(path="projects/_index.md") %}
+<div class="container">
+    <section class="flex-row">
+      <h2 class="main-title dotted-border">{{ posts.extra.landing_title }}</h2>
+      {% for post in posts.pages %}
+      <article>
+        <a href="{{ post.path | safe }}" class="text">
+          <h3 class="post-title post-title-padding">{{ post.title }}</h3>
+          <p class="post-date"><strong><em>{{ post.date | date }}</em></strong></p>
+          <p class="text">{{ post.description }}</p>
+        </a>
+      </article>
+      {% endfor %}
+    </section>
+    <section class="flex-row">
+      <h2 class="main-title dotted-border">{{ projects.extra.landing_title }}</h2>
+      {% for project in projects.pages %}
+      <article class="project-summary">
+        <a href="{{ project.path | safe }}" class="text">
+          <img src="{{ project.extra.icon }}" alt="project icon" class="project-icon"/>
+          <div>
+            <h3 class="post-title project-title-padding">{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </section>
+  </div>
+</main>
+{% endblock content %}

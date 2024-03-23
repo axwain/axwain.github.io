@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <article class="post bottom-gap">
+    <h2 class="main-title">{{ page.title }}</h2>
+    <p class="post-date"><strong><em>{{ page.date | date }}</em></strong></p>
+    <div class="post-content">
+    {{ page.content | safe }}
+    </div>
+  </article>
+</main>
+{% endblock content %}
+

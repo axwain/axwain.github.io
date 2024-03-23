@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <article class="post bottom-gap">
+    <h2 class="main-title">{{ page.title }}</h2>
+    <div class="post-content">
+    {{ page.content | safe }}
+    </div>
+  </article>
+</main>
+{% endblock content %}
+

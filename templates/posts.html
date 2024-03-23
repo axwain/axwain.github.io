@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <section class="card flex-row bottom-gap">
+    <h2 class="main-title">{{ section.title }}</h2>
+    {% for page in paginator.pages %}
+    <article>
+      <a href="{{ page.permalink | safe }}" class="text">
+        <h3 class="post-title post-title-padding">{{ page.title }}</h3>
+        <p class="post-date"><strong><em>{{ page.date | date }}</em></strong></p>
+        <p>{{ page.description }}</p>
+      </a>
+    </article>
+    {% endfor %}
+  </section>
+  {% include "paginator.html" %}
+</main>
+{% endblock content %}
+

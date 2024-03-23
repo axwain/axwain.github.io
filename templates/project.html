@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <article class="post bottom-gap">
+    <div class="project-header">
+      <img src="{{ page.extra.icon }}" alt="project icon" class="project-header-icon"/>
+      <div>
+        <h2 class="main-title">{{ page.title }}</h2>
+        <p class="project-date"><strong><em>{{ page.date | date }}</em></strong></p>
+      </div>
+    </div>
+    <div class="post-content">
+    {{ page.content | safe }}
+    </div>
+  </article>
+</main>
+{% endblock content %}
+
