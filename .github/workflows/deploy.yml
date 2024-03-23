@@ -5,12 +5,36 @@ on:
 name: Build and Deploy to GH Pages
 jobs:
   build:
+    name: Build Site
     runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v4
-      - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@v0.18.0
-        env:
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: build
+        run:
+          mkdir bin
+          wget https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz -q -O bin/zola.tar.gz
+          tar -xzf ./bin/zola.tar.gz -C ./bin
+          chmod +x ./bin/zola
+          ./bin/zola build
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public/
+  
+  deploy:
+    needs: build
+    name: Deploy to GH Pages
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Site
+        id: deployment
+        uses: actions/deploy-pages@v4
