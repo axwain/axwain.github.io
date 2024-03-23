@@ -7,5 +7,5 @@ description = "Project Summary goes here"
 icon="/icons/palettemaker.svg"
 +++
 
-This is a sample blog post.
+This is a sample project post.
 
