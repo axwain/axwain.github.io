@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  gap: 24px;
+
+  @media screen and (max-width: 1024px) {
+    gap: 32px;
+  }
+
+  @media screen and (max-width: 512px) {
+    gap: 32px;
+  }
+}
+

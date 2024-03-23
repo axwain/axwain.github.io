@@ -1,0 +1,40 @@
+.post {
+  padding: 8px 16px 24px;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &-date {
+    color: var(--foreground2);
+    font-size: var(--font-size-subtext);
+    padding-bottom: 16px;
+    text-decoration: none;
+  }
+
+  &-title-padding {
+    padding: 24px 0px 0px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    &-date {
+      padding-bottom: 12px;
+    }
+
+    &-title-padding {
+      padding: 24px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 512px) {
+    &-date {
+      padding-bottom: 8px;
+    }
+
+    &-title-padding {
+      padding: 16px 0px 0px;
+    }
+  }
+}
