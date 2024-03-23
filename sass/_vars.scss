@@ -1,0 +1,15 @@
+@use 'includes/colors';
+@use 'includes/font-sizes';
+
+body {
+  @include font-sizes.fontSizes;
+
+  @include colors.lightColors;
+  @media (prefers-color-scheme: dark) {
+    @include colors.darkColors;
+  }
+
+  @media screen and (max-width: 512px) {
+    @include font-sizes.fontSizes512;
+  }
+}

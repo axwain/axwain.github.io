@@ -1,0 +1,17 @@
+@mixin fontSizes {
+  --font-size-regular: 20px;
+  --font-size-header1: 40px;
+  --font-size-header2: 32px;
+  --font-size-header3: 24px;
+  --font-size-subtext: 16px;
+  --font-size-footer: 14px;
+}
+
+@mixin fontSizes512 {
+  --font-size-regular: 16px;
+  --font-size-header1: 32px;
+  --font-size-header2: 28px;
+  --font-size-header3: 20px;
+  --font-size-subtext: 12px;
+  --font-size-footer: 12px;
+}

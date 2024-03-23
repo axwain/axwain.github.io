@@ -1,0 +1,23 @@
+@mixin darkColors {
+    --background: #000405;
+    --background2: dimgray;
+    --foreground: #fffefa;
+    --main: #4fde74;
+    --level1: #8eb0ff;
+    --level2: #b5cbff;
+    --foreground2: #e0edf5;
+    --link: #d3f7dd;
+    --link-visited: #ccabfc;
+  }
+
+@mixin lightColors {
+  --background: #fffefa;
+  --background2: lightgray;
+  --foreground: #000405;
+  --foreground2: #566e00;
+  --level1: #275574;
+  --level2: #316b91;
+  --link: #208300;
+  --link-visited: #6e0089;
+  --main: #177a30;
+}
