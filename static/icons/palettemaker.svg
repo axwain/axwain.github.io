@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <rect
+     style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect10562"
+     width="256"
+     height="256"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:#000014;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-56"
+     width="32"
+     height="32"
+     x="-248"
+     y="136"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#000062;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-8"
+     width="32"
+     height="32"
+     x="-248"
+     y="104"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#0000b1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-30"
+     width="32"
+     height="32"
+     x="-248"
+     y="72"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234"
+     width="32"
+     height="32"
+     x="-248"
+     y="40"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#4e4eff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-2"
+     width="32"
+     height="32"
+     x="-248"
+     y="8"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#006200;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-16"
+     width="32"
+     height="32"
+     x="-216"
+     y="104"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#00b100;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-303"
+     width="32"
+     height="32"
+     x="-216"
+     y="72"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-80"
+     width="32"
+     height="32"
+     x="-216"
+     y="40"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#4eff4e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-7"
+     width="32"
+     height="32"
+     x="-216"
+     y="8"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#b10000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-34"
+     width="32"
+     height="32"
+     x="-184"
+     y="72"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.87937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="rect234-1"
+     width="32"
+     height="32"
+     x="-184"
+     y="40"
+     ry="0"
+     transform="scale(-1,1)" />
+  <path
+     d="M 83.275499,242.00003 H 56 V 139.71691 q 0,-25.7169 24.158299,-25.7169 h 14.41705 q 14.222221,0 20.261801,9.3516 5.64992,-9.3516 20.2618,-9.3516 H 149.516 q 24.1583,0 24.1583,25.7169 V 242.00003 H 146.3988 V 137.37901 q 0,-1.5586 -1.16895,-2.72755 -0.97413,-1.16895 -2.53273,-1.16895 h -10.52055 q -1.5586,0 -2.72755,1.16895 -0.97412,1.16895 -0.97412,2.72755 V 242.00003 H 101.1994 V 137.37901 q 0,-1.5586 -1.16895,-2.72755 -0.974126,-1.16895 -2.532726,-1.16895 h -10.52055 q -1.5586,0 -2.72755,1.16895 -0.974125,1.16895 -0.974125,2.72755 z"
+     style="font-size:194.825px;font-family:'Squada One';-inkscape-font-specification:'Squada One';text-align:center;text-anchor:middle;fill:#004ddf;fill-rule:evenodd;stroke-width:4.87936;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="path326" />
+  <path
+     d="m 66.052506,16.000002 q 24.531664,0 24.531664,26.114352 v 25.520844 q 0,26.114352 -24.531664,26.114352 H 43.697039 v 50.25034 H 15.999999 V 16.000002 Z M 62.88713,70.800574 V 38.948978 q 0,-1.582688 -1.187016,-2.769704 -0.98918,-1.187016 -2.571868,-1.187016 H 43.697039 v 39.765036 h 15.431207 q 1.582688,0 2.571868,-1.187016 1.187016,-1.187016 1.187016,-2.769704 z"
+     style="font-size:197.836px;font-family:'Squada One';-inkscape-font-specification:'Squada One';text-align:center;text-anchor:middle;fill:#004ddf;fill-rule:evenodd;stroke-width:4.87936;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;paint-order:fill markers stroke"
+     id="path323" />
+</svg>
