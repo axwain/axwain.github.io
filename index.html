@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/favicon.svg">
+    <link rel=”mask-icon” href=”/mask-icon.svg” color=”#000000">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>AXwain's Dev Corner</title>
+    <meta name="author" content="AXwain">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+  </head>
+
+  <body>
+    <div class="controls alt-font">
+      <label class="toggle">
+        <input type="checkbox" id="font-style">
+        <span class="slider"></span>
+      </label>
+      Font Style
+    </div>
+    <section class="page-header">
+      <a href='/' class="text"><h1 class="page-title">AXwain's Dev Corner</h1></a>
+      <nav class="navigation">
+        <a href="/about">About</a>
+        <a href="/posts">Posts</a>
+        <a href="/projects">Projects</a>
+      </nav>
+    </section>
+    
+<main>
+  <section class="landing-summary">
+  <p>
+    Welcome to my Dev Corner. On this page I have write mostly about some
+    technical topics I find interesting, and some of the side projects I
+    do outside of work hours.
+  </p>
+</section>
+
+
+<div class="container">
+    <section class="flex-row">
+      <h2 class="main-title dotted-border">Recent Posts</h2>
+      
+      <article>
+        <a href="/posts/first/" class="text">
+          <h3 class="post-title post-title-padding">First Post</h3>
+          <p class="post-date"><strong><em>2024-01-15</em></strong></p>
+          <p class="text">Post Summary goes here</p>
+        </a>
+      </article>
+      
+    </section>
+    <section class="flex-row">
+      <h2 class="main-title dotted-border">Highlighted Projects</h2>
+      
+      <article class="project-summary">
+        <a href="/projects/first/" class="text">
+          <img src="&#x2F;icons&#x2F;palettemaker.svg" alt="project icon" class="project-icon"/>
+          <div>
+            <h3 class="post-title project-title-padding">First Project</h3>
+            <p>Project Summary goes here</p>
+          </div>
+        </a>
+      </article>
+      
+    </section>
+  </div>
+</main>
+
+    <footer>
+      <p>&copy; 2024 <a href="https://github.com/AXwain">AXwain</a></p>
+      <p>Powered by <a href="https://www.getzola.org/">Zola</p>
+    </footer>
+    <script>
+      window.onload = () => {
+        const toggleFont = document.getElementById('font-style');
+        toggleFont.onclick = (e) => {
+          if (e.target.checked) {
+            document.body.classList.add('alt-font');
+          } else {
+            document.body.classList.remove('alt-font');
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

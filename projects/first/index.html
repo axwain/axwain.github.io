@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/favicon.svg">
+    <link rel=”mask-icon” href=”/mask-icon.svg” color=”#000000">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>
+First Project - AXwain's Dev Corner
+</title>
+    <meta name="author" content="AXwain">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+<meta name="description" content="Project Summary goes here" />
+
+  </head>
+
+  <body>
+    <div class="controls alt-font">
+      <label class="toggle">
+        <input type="checkbox" id="font-style">
+        <span class="slider"></span>
+      </label>
+      Font Style
+    </div>
+    <section class="page-header">
+      <a href='/' class="text"><h1 class="page-title">AXwain's Dev Corner</h1></a>
+      <nav class="navigation">
+        <a href="/about">About</a>
+        <a href="/posts">Posts</a>
+        <a href="/projects">Projects</a>
+      </nav>
+    </section>
+    
+<main>
+  <article class="post bottom-gap">
+    <div class="project-header">
+      <img src="&#x2F;icons&#x2F;palettemaker.svg" alt="project icon" class="project-header-icon"/>
+      <div>
+        <h2 class="main-title">First Project</h2>
+        <p class="project-date"><strong><em>2024-01-15</em></strong></p>
+      </div>
+    </div>
+    <div class="post-content">
+    <p>This is a sample project post.</p>
+
+    </div>
+  </article>
+</main>
+
+    <footer>
+      <p>&copy; 2024 <a href="https://github.com/AXwain">AXwain</a></p>
+      <p>Powered by <a href="https://www.getzola.org/">Zola</p>
+    </footer>
+    <script>
+      window.onload = () => {
+        const toggleFont = document.getElementById('font-style');
+        toggleFont.onclick = (e) => {
+          if (e.target.checked) {
+            document.body.classList.add('alt-font');
+          } else {
+            document.body.classList.remove('alt-font');
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

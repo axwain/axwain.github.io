@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link rel="self" type="application/atom+xml" href="https://axwain.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://axwain.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-15T00:00:00-05:00</updated>
+    <id>https://axwain.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>About</title>
+        <published>2024-01-15T00:00:00-05:00</published>
+        <updated>2024-01-15T00:00:00-05:00</updated>
+        
+        <author>
+          <name>
+            
+              AXwain
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://axwain.github.io/about/"/>
+        <id>https://axwain.github.io/about/</id>
+        
+        <content type="html" xml:base="https://axwain.github.io/about/">&lt;p&gt;About Page&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>First Post</title>
+        <published>2024-01-15T00:00:00-05:00</published>
+        <updated>2024-01-15T00:00:00-05:00</updated>
+        
+        <author>
+          <name>
+            
+              AXwain
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://axwain.github.io/posts/first/"/>
+        <id>https://axwain.github.io/posts/first/</id>
+        
+        <content type="html" xml:base="https://axwain.github.io/posts/first/">&lt;p&gt;This is a sample blog post.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>First Project</title>
+        <published>2024-01-15T00:00:00-05:00</published>
+        <updated>2024-01-15T00:00:00-05:00</updated>
+        
+        <author>
+          <name>
+            
+              AXwain
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://axwain.github.io/projects/first/"/>
+        <id>https://axwain.github.io/projects/first/</id>
+        
+        <content type="html" xml:base="https://axwain.github.io/projects/first/">&lt;p&gt;This is a sample project post.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
