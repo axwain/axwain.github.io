@@ -1,7 +1,7 @@
 +++
 title = "My journey trying to make a retro-like web game"
 date = 2025-02-23T23:30:00-05:00
-description = "Retro Games up-scaling, my nemesis"
+description = "After one year, and a lot of prototypes with different libraries and engines, I return with a summary of how I ended with the library to use for small retro-like project"
 +++
 
 In a previous post I mentioned I wanted to do a, sort-of, return to my roots. To make some games. I decided upon to use KaboomJS to do that. I was in for an unexpected journey trying different game libraries and engines. Basically one year later, I return with a summary of this journey, and still nothing to show for now.

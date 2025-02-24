@@ -5,7 +5,7 @@ template = "page.html"
 description = "AXwain's short profile and about the site"
 +++
 
-Hi! I'm [AXwain](https://github.com/axwain) a software engineer that has been programming for 9+ years in a professional manner. Before that I was just another hobbyist writing small games and learning game development. You can call me Ax or Johnny if you prefer to use my real name.
+Hi! I'm [AXwain](https://github.com/axwain) a software engineer that has been programming for 10+ years in a professional manner. Before that I was just another hobbyist writing small games and learning game development. You can call me Ax.
 
 Due to life circumstances I have ended up with more job opportunities working on User Interfaces, and mostly web front-ends. Unfortunately, that line of work becomes not so challenging after a while and not much can be learnt without more harder problems to solve.
 
