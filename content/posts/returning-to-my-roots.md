@@ -30,7 +30,7 @@ I'll leverage my web front-end experience to learn to use _KaboomJs_ and make so
 
 I also have in mind doing another game project, one that uses the fusion mechanic from Yu-Gi-Oh! Forbidden Memories, but that would be a more involving project. I'll do that one when I'm not that rusty making games.
 
-For assets, I think I'll use (Kenney's ones)[https://kenney.nl/assets]. It would be similar to what I did when I started with Game Maker. Back then, I used Ari Fieldman's spritelib (no longer available unfortunately).
+For assets, I think I'll use [Kenney's ones](https://kenney.nl/assets). It would be similar to what I did when I started with Game Maker. Back then, I used Ari Fieldman's spritelib (no longer available unfortunately).
 
 ## Final Thoughts
 
