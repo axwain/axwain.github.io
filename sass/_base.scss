@@ -71,3 +71,14 @@ a:visited {
     padding: 8px 24px 16px;
   }
 }
+
+.youtube-container {
+  display: flex;
+  padding: 16px;
+}
+
+.youtube-iframe {
+  width: 800px;
+  height: 450px;
+  margin: auto;
+}
