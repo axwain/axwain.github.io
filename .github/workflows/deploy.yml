@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - 'main'
+      - "main"
 name: Build and Deploy to GH Pages
 jobs:
   build:
@@ -10,10 +10,12 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
       - name: build
         run: |
           mkdir bin
-          wget https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz -q -O bin/zola.tar.gz
+          wget https://github.com/getzola/zola/releases/download/v0.21.0/zola-v0.21.0-x86_64-unknown-linux-gnu.tar.gz -q -O bin/zola.tar.gz
           tar -xzf ./bin/zola.tar.gz -C ./bin
           chmod +x ./bin/zola
           ./bin/zola build
@@ -21,7 +23,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public/
-  
+
   deploy:
     needs: build
     name: Deploy to GH Pages
