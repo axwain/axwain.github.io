@@ -1,8 +1,10 @@
 @use 'includes/colors';
 @use 'includes/font-sizes';
+@use 'includes/header-margins';
 
 body {
   @include font-sizes.fontSizes;
+  @include header-margins.headerMargins;
 
   @include colors.lightColors;
   @media (prefers-color-scheme: dark) {
@@ -11,5 +13,6 @@ body {
 
   @media screen and (max-width: 512px) {
     @include font-sizes.fontSizes512;
+    @include header-margins.headerMargins512;
   }
 }

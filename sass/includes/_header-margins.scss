@@ -1,0 +1,21 @@
+@mixin headerMargins {
+  --level1-margin-top: 16px;
+  --level2-margin-top: 12px;
+  --level3-margin-top: 8px;
+  --level4-margin-top: 4px;
+  --level1-margin-bottom: 10px;
+  --level2-margin-bottom: 8px;
+  --level3-margin-bottom: 6px;
+  --level4-margin-bottom: 4px;
+}
+
+@mixin headerMargins512 {
+  --level1-margin-top: 10px;
+  --level2-margin-top: 8px;
+  --level3-margin-top: 6px;
+  --level4-margin-top: 4px;
+  --level1-margin-bottom: 8px;
+  --level2-margin-bottom: 6px;
+  --level3-margin-bottom: 4px;
+  --level4-margin-bottom: 2px;
+}

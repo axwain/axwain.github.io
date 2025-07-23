@@ -51,3 +51,19 @@ h3.post-title {
     padding: 8px 24px 16px;
   }
 }
+
+h1 {
+  margin: var(--level1-margin-top) 0 var(--level1-margin-bottom);
+}
+
+h2 {
+  margin: var(--level2-margin-top) 0 var(--level2-margin-bottom);
+}
+
+h3 {
+  margin: var(--level3-margin-top) 0 var(--level3-margin-bottom);
+}
+
+h4 {
+  margin: var(--level4-margin-top) 0 var(--level4-margin-bottom);
+}
